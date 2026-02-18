@@ -1,0 +1,319 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./assets/images/logo.svg"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>Browser extensions manager UI</title>
+  </head>
+  <body>
+    <header>
+      <img
+        src="./assets/images/logo.svg"
+        class="extension-logo"
+        alt="Extension logo"
+      />
+
+      <button class="sun-button">
+        <img src="./assets/images/icon-sun.svg" alt="sun icon" />
+      </button>
+    </header>
+
+    <main>
+      <div class="extension-list">
+        <h1 class="extension-heading">Extensions List</h1>
+        <div class="btn-container">
+          <button class="btn all">All</button>
+          <button class="btn">Active</button>
+          <button class="btn">Inactive</button>
+        </div>
+      </div>
+
+      <section class="list-container">
+        <div class="devlens-container">
+          <div class="devlens-text">
+            <img
+              class="dev-image"
+              src="./assets/images/logo-devlens.svg"
+              alt="Dev Lens"
+            />
+            <div class="dev-subItem">
+              <h5>DevLens</h5>
+              <p>
+                Quickly inspect page layouts and visualize element boundaries.
+              </p>
+            </div>
+          </div>
+          <div class="dev-btn">
+            <button class="remove-btn">Remove</button>
+            <label class="switch">
+              <input type="checkbox" />
+              <span class="slider round"></span>
+            </label>
+          </div>
+        </div>
+
+        <div class="devlens-container">
+          <div class="devlens-text">
+            <img
+              class="dev-image"
+              src="./assets/images/logo-style-spy.svg"
+              alt="Style Spy"
+            />
+            <div class="dev-subItem">
+              <h5>StyleSpy</h5>
+              <p>Instantly analyze and copy CSS from any webpage element.</p>
+            </div>
+          </div>
+          <div class="dev-btn">
+            <button class="remove-btn">Remove</button>
+            <label class="switch">
+              <input type="checkbox" />
+              <span class="slider round"></span>
+            </label>
+          </div>
+        </div>
+
+        <div class="devlens-container">
+          <div class="devlens-text">
+            <img
+              class="dev-image"
+              src="./assets/images/logo-speed-boost.svg"
+              alt="Speed Boost"
+            />
+            <div class="dev-subItem">
+              <h5>SpeedBoost</h5>
+              <p>
+                Optimizes browser resource usage to accelerate page loading.
+              </p>
+            </div>
+          </div>
+          <div class="dev-btn">
+            <button class="remove-btn">Remove</button>
+            <label class="switch">
+              <input type="checkbox" />
+              <span class="slider round"></span>
+            </label>
+          </div>
+        </div>
+
+        <div class="devlens-container">
+          <div class="devlens-text">
+            <img
+              class="dev-image"
+              src="./assets/images/logo-json-wizard.svg"
+              alt="JSONWizard "
+            />
+            <div class="dev-subItem">
+              <h5>JSONWizard</h5>
+              <p>
+                Formats, validates, and prettifies JSON responses in-browser.
+              </p>
+            </div>
+          </div>
+          <div class="dev-btn">
+            <button class="remove-btn">Remove</button>
+            <label class="switch">
+              <input type="checkbox" />
+              <span class="slider round"></span>
+            </label>
+          </div>
+        </div>
+
+        <div class="devlens-container">
+          <div class="devlens-text">
+            <img
+              class="dev-image"
+              src="./assets/images/logo-tab-master-pro.svg"
+              alt=" TabMaster Pro "
+            />
+            <div class="dev-subItem">
+              <h5>TabMaster Pro</h5>
+              <p>Organizes browser tabs into groups and sessions.</p>
+            </div>
+          </div>
+          <div class="dev-btn">
+            <button class="remove-btn">Remove</button>
+            <label class="switch">
+              <input type="checkbox" />
+              <span class="slider round"></span>
+            </label>
+          </div>
+        </div>
+
+        <div class="devlens-container">
+          <div class="devlens-text">
+            <img
+              class="dev-image"
+              src="./assets/images/logo-viewport-buddy.svg"
+              alt=" ViewportBuddy"
+            />
+            <div class="dev-subItem">
+              <h5>ViewportBuddy</h5>
+              <p>
+                Simulates various screen resolutions directly within the
+                browser.
+              </p>
+            </div>
+          </div>
+          <div class="dev-btn">
+            <button class="remove-btn">Remove</button>
+            <label class="switch">
+              <input type="checkbox" />
+              <span class="slider round"></span>
+            </label>
+          </div>
+        </div>
+
+        <div class="devlens-container">
+          <div class="devlens-text">
+            <img
+              class="dev-image"
+              src="./assets/images/logo-markup-notes.svg"
+              alt=" Markup Notes"
+            />
+            <div class="dev-subItem">
+              <h5>Markup Notes</h5>
+              <p>
+                Enables annotation and notes directly onto webpages for
+                collaborative debugging.
+              </p>
+            </div>
+          </div>
+          <div class="dev-btn">
+            <button class="remove-btn">Remove</button>
+            <label class="switch">
+              <input type="checkbox" />
+              <span class="slider round"></span>
+            </label>
+          </div>
+        </div>
+
+        <div class="devlens-container">
+          <div class="devlens-text">
+            <img
+              class="dev-image"
+              src="./assets/images/logo-grid-guides.svg"
+              alt="GridGuides"
+            />
+            <div class="dev-subItem">
+              <h5>GridGuides</h5>
+              <p>
+                Overlay customizable grids and alignment guides on any webpage.
+              </p>
+            </div>
+          </div>
+          <div class="dev-btn">
+            <button class="remove-btn">Remove</button>
+            <label class="switch">
+              <input type="checkbox" />
+              <span class="slider round"></span>
+            </label>
+          </div>
+        </div>
+
+        <div class="devlens-container">
+          <div class="devlens-text">
+            <img
+              class="dev-image"
+              src="./assets/images/logo-palette-picker.svg"
+              alt="    
+    Palette Picker "
+            />
+            <div class="dev-subItem">
+              <h5>Palette Picker</h5>
+              <p>Instantly extracts color palettes from any webpage.</p>
+            </div>
+          </div>
+          <div class="dev-btn">
+            <button class="remove-btn">Remove</button>
+            <label class="switch">
+              <input type="checkbox" />
+              <span class="slider round"></span>
+            </label>
+          </div>
+        </div>
+
+        <div class="devlens-container">
+          <div class="devlens-text">
+            <img
+              class="dev-image"
+              src="./assets/images/logo-link-checker.svg"
+              alt="LinkChecker"
+            />
+            <div class="dev-subItem">
+              <h5>LinkChecker</h5>
+              <p>Scans and highlights broken links on any page.</p>
+            </div>
+          </div>
+          <div class="dev-btn">
+            <button class="remove-btn">Remove</button>
+            <label class="switch">
+              <input type="checkbox" />
+              <span class="slider round"></span>
+            </label>
+          </div>
+        </div>
+
+        <div class="devlens-container">
+          <div class="devlens-text">
+            <img
+              class="dev-image"
+              src="./assets/images/logo-dom-snapshot.svg"
+              alt="  DOM
+    Snapshot "
+            />
+            <div class="dev-subItem">
+              <h5>DOM Snapshot</h5>
+              <p>Capture and export DOM structures quickly.</p>
+            </div>
+          </div>
+          <div class="dev-btn">
+            <button class="remove-btn">Remove</button>
+            <label class="switch">
+              <input type="checkbox" />
+              <span class="slider round"></span>
+            </label>
+          </div>
+        </div>
+
+        <div class="devlens-container">
+          <div class="devlens-text">
+            <img
+              class="dev-image"
+              src="./assets/images/logo-console-plus.svg"
+              alt=" ConsolePlus"
+            />
+            <div class="dev-subItem">
+              <h5>ConsolePlus</h5>
+              <p>
+                Enhanced developer console with advanced filtering and logging.
+              </p>
+            </div>
+          </div>
+          <div class="dev-btn">
+            <button class="remove-btn">Remove</button>
+            <label class="switch">
+              <input type="checkbox" />
+              <span class="slider round"></span>
+            </label>
+          </div>
+        </div>
+      </section>
+    </main>
+  </body>
+</html>
