@@ -15,6 +15,7 @@
   --red-400: hsl(3, 86%, 64%);
   --red-500: hsl(3, 71%, 56%);
   --red-700: hsl(3, 77%, 44%);
+  --blue-500: hsl(4, 88%, 45%);
 }
 body {
   background-color: var(--neutral-900);
